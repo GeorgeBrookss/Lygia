@@ -1,47 +1,43 @@
 *{
     padding: 1rem;
+    box-sizing: border-box;
     
 }
 
 
 body{
     margin: 0;
-    padding: 0;
-    height: 3334px;
+    height: auto;
     
 }
 
 header{
     display: flex;
-    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 
 header h2{
-    margin: 0;
-    width: 138px;
-    height: 27px;
-    font-size: 18px;
+
+
+    font-size: 1.2rem;
     font-family: 'Nunito';
     font-weight: 500;
 
 }
 
 header a{
-    margin-left: 32px;
-    position: relative;
-    left: 986px;
     text-decoration: none;
     color: black;
-    height: 27px;
-    width: 65px;
     font-family: 'Nunito';
+    font-size: 1rem;
 }
 
 
 .container{
-    display: flex; flex-direction: column;
-    top: 207px;
-    width: 100%;
+    display: flex; 
+    flex-direction: column;
     
     
 }
@@ -49,48 +45,32 @@ header a{
 
 .container h1{
     font-family: 'Roboto Flex';
-    top: 252px;
-    width: 653px;
-    height: 67px;
-    font-size: 56px;
+    font-size: 2rem;
     font-weight: bold;
-    margin-top: 12px;
 }
 
 .container h3{
     font-family: 'Nunito';
-    top: 207px;
-    width: 732px;
-    height: 33px;
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #863FE1;
-    margin-top: 15px;
+
     
 }
 
 .container p{
     font-family: 'Nunito';
-    top: 351px;
-    width: 732px;
-    height: 81px;
-    font-size: 18px;
-    margin-top: 16px;
+    font-size: 1rem;
 }
 
 
 .container img{
-width: 559px;
-height: 746;
-position: absolute;
-left: 828px;
-top: 112px;
+width: 50%;
 
 
 }
 
 .containerlink {
     display: flex;
-    top: 504px;
 }
 
 .containerlink a{
@@ -98,11 +78,8 @@ top: 112px;
     border-radius: 40px;
     border-color: #863FE1;
     text-decoration: none;   
-    font-size: 18px;
-    padding-top: 20px;
+    padding: 10px 20px;
     font-family: 'Roboto Flex';
-    height: 40px;
-    width: 250px;
     text-align: center;
 
 }
@@ -115,18 +92,15 @@ top: 112px;
 
 
 @media (max-width: 768px){
-    .container h1{
-        font-size: 20px;
-    }
-
-    .container h3{
-        font-size: 16px;
-    }
-    .container p {
+    @media (max-width: 768px) {
+        body {
         font-size: 14px;
-    }
-    .containerlink a{
-        font-size: 14px;
-        padding: 8px 16px;
+        }
+        .container {
+        padding: 1rem;
+        }
+        .image {
+        width: 100%;
+        }
     }
 }
