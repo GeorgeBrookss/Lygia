@@ -1,5 +1,5 @@
 *{
-    margin-left: 64px;
+    padding: 1rem;
     
 }
 
@@ -8,7 +8,7 @@ body{
     margin: 0;
     padding: 0;
     height: 3334px;
-    width: 1400px;
+    
 }
 
 header{
@@ -39,9 +39,9 @@ header a{
 
 
 .container{
-    display: flex;
-    flex-direction: column;
+    display: flex; flex-direction: column;
     top: 207px;
+    width: 100%;
     
     
 }
@@ -49,7 +49,6 @@ header a{
 
 .container h1{
     font-family: 'Roboto Flex';
-    position: absolute;
     top: 252px;
     width: 653px;
     height: 67px;
@@ -60,7 +59,6 @@ header a{
 
 .container h3{
     font-family: 'Nunito';
-    position: absolute;
     top: 207px;
     width: 732px;
     height: 33px;
@@ -72,7 +70,6 @@ header a{
 
 .container p{
     font-family: 'Nunito';
-    position: absolute;
     top: 351px;
     width: 732px;
     height: 81px;
@@ -84,7 +81,7 @@ header a{
 .container img{
 width: 559px;
 height: 746;
-position: relative;
+position: absolute;
 left: 828px;
 top: 112px;
 
@@ -94,7 +91,6 @@ top: 112px;
 .containerlink {
     display: flex;
     top: 504px;
-    position: absolute;
 }
 
 .containerlink a{
