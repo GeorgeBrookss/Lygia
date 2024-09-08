@@ -1,5 +1,6 @@
 *{
     margin-left: 64px;
+    
 }
 
 
@@ -17,18 +18,23 @@ header{
 
 header h2{
     margin: 0;
-    
-
+    width: 138px;
+    height: 27px;
+    font-size: 18px;
+    font-family: 'Nunito';
+    font-weight: 500;
 
 }
 
 header a{
-    justify-content: space-between;
-    padding: 18px;
+    margin-left: 32px;
     position: relative;
-    left: 848px;
+    left: 986px;
     text-decoration: none;
     color: black;
+    height: 27px;
+    width: 65px;
+    font-family: 'Nunito';
 }
 
 
@@ -42,33 +48,36 @@ header a{
 
 
 .container h1{
-    
+    font-family: 'Roboto Flex';
     position: absolute;
     top: 252px;
     width: 653px;
     height: 67px;
     font-size: 56px;
     font-weight: bold;
+    margin-top: 12px;
 }
 
 .container h3{
+    font-family: 'Nunito';
     position: absolute;
     top: 207px;
     width: 732px;
     height: 33px;
     font-size: 24px;
     color: #863FE1;
+    margin-top: 15px;
     
 }
 
 .container p{
-
+    font-family: 'Nunito';
     position: absolute;
     top: 351px;
     width: 732px;
     height: 81px;
     font-size: 18px;
-    padding-top: 32px;
+    margin-top: 16px;
 }
 
 
@@ -81,6 +90,32 @@ top: 112px;
 
 
 }
+
+.containerlink {
+    display: flex;
+    top: 504px;
+    position: absolute;
+}
+
+.containerlink a{
+    border: inset;
+    border-radius: 40px;
+    border-color: #863FE1;
+    text-decoration: none;   
+    font-size: 18px;
+    padding-top: 20px;
+    font-family: 'Roboto Flex';
+    height: 40px;
+    width: 250px;
+    text-align: center;
+
+}
+
+#sobre{
+    background-color: #863FE1;
+    color: white;
+}
+
 
 
 @media (max-width: 768px){
