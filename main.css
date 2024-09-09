@@ -142,7 +142,7 @@ nav a:hover{
 
 
 
-@media only screen and (min-width: 360px) and (max-width: 567px) {
+@media only screen and (min-width: 160px) and (max-width: 567px) {
 
     *{
         margin-left: 64px;
