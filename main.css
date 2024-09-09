@@ -7,8 +7,8 @@
 body{
     margin: 0;
     padding: 0;
-    height: 3334px;
-    width: 1400px;
+    height: auto;
+    width: 100%;
 }
 
 header{
@@ -24,7 +24,7 @@ header{
 header h2{
 
     margin: 0;
-    width: 138px;
+    width: 20rem;
     height: 27px;
     font-size: 18px;
     font-family: 'Nunito';
@@ -121,10 +121,215 @@ top: 112px;
 
 
 
-@media only screen and (min-width: 2000px) and (max-width: 3840px){
-h1{
-    font-size: 9rem !important;
-    line-height: 9.3rem !important;
+@media only screen and (min-width: 360px) and (max-width: 568px) {
+
+    header a{
+        margin-left: 32px;
+        position: relative;
+        left: 8px;
+        text-decoration: none;
+        color: black;
+        height: 27px;
+        
+        font-family: 'Nunito';
+    }
+    
+    header{
+        display: flex;
+        margin-left: 24px;
+        position: relative;
+        top: 26px;
+        left: 94px;
+        right: 24px;
+        bottom: 26px;
+    }
+    
+    body{
+        position: relative;
+        right: 180px;
+        margin: 24px;
+        
+    }
+
+    .container{
+        position: relative;
+        top: 40px;
+        left: -18px;
+    }
+    .container h1{
+        font-family: 'Roboto Flex';
+        width: 520px;
+        height: 48px;
+        font-size: 40px;
+        
+    }
+
+
+    .container p{
+        width: 490px;
+        height: 96px;
+        font-size: 16px;
+    }
+    
+    .containerlink {
+        display: flex;
+        top: 77px;
+        position: relative;
+        width: 500px;
+    }
+    
+.container img{
+    width: 559px;
+    height: 746;
+    position: absolute;
+    left: -862px;
+    top: 112px;
+    }
+    
+
 }
 
+
+@media only screen and (min-width: 720px) and (max-width: 1720px) {
+
+    header a{
+        margin-left: 32px;
+        position: relative;
+        left: 28px;
+        text-decoration: none;
+        color: black;
+        height: 27px;
+        font-family: 'Nunito';
+    }
+    
+    header{
+        display: flex;
+        margin-left: 24px;
+        position: relative;
+        top: 26px;
+        left: 94px;
+        right: 24px;
+        bottom: 26px;
+    }
+    
+    body{
+        position: relative;
+        right: 180px;
+        margin: 24px;
+        
+    }
+
+    .container{
+        position: relative;
+        top: 40px;
+    }
+    .container h1{
+        font-family: 'Roboto Flex';
+        width: 520px;
+        height: 48px;
+        font-size: 40px;
+        
+    }
+
+
+    .container p{
+        width: 490px;
+        height: 96px;
+        font-size: 16px;
+    }
+    
+    .containerlink {
+        display: flex;
+        top: 77px;
+        position: relative;
+        width: 500px;
+    }
+    
+    .container img{
+        width: 459px;
+        height: 646;
+        position: absolute;
+        left: -862px;
+        top: 112px;
+        }
+        
+
+}
+
+@media only screen and (min-width: 569px) and (max-width: 720px) {
+
+    header a{
+        margin-left: 32px;
+        position: relative;
+        left: 28px;
+        text-decoration: none;
+        color: black;
+        height: 27px;
+        font-family: 'Nunito';
+    }
+    
+    header{
+        display: flex;
+        margin-left: 24px;
+        position: relative;
+        top: 26px;
+        left: 94px;
+        right: 24px;
+        bottom: 26px;
+    }
+    
+    body{
+        position: relative;
+        right: 180px;
+        margin: 24px;
+        
+    }
+
+    .container{
+        position: relative;
+        top: 40px;
+    }
+    .container h1{
+        font-family: 'Roboto Flex';
+        width: 520px;
+        height: 48px;
+        font-size: 40px;
+        
+    }
+
+
+    .container p{
+        width: 490px;
+        height: 96px;
+        font-size: 16px;
+    }
+    
+    .containerlink {
+        display: flex;
+        top: 77px;
+        position: relative;
+        width: 500px;
+    }
+    
+    .container img{
+        width: 559px;
+        height: 746;
+        position: absolute;
+        left: -862px;
+        top: 112px;
+        }
+        
+
+}
+
+@media only screen and (min-width: 820px) and (max-width: 1720px){
+    
+    .container img{
+        width: 459px;
+        height: 646;
+        position: absolute;
+        left: 482px;
+        top: 112px;
+        }
+        
 }
