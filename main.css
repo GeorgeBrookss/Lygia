@@ -142,7 +142,8 @@ nav a:hover{
 
 
 
-@media only screen and (min-width: 160px) and (max-width: 567px) {
+@media only screen and (min-width: 360px) and (max-width: 567px) {
+    
 
     *{
         margin-left: 64px;
@@ -175,9 +176,8 @@ nav a:hover{
         position: relative;
         top: 26px;
         left: 24px;
-        right: 24px;
+        right: 324px;
         bottom: 26px;
-        padding: 0 24px;
     }
     
     
@@ -190,19 +190,21 @@ nav a:hover{
         font-size: 18px;
         font-family: 'Nunito';
         font-weight: 500;
-        left: 24px;
+        left: 4px;
         position: relative;
     
     }
+
+
     
     header a{
         margin-left: 32px;
         position: relative;
-        left: 136px;
+        left: 6px;
         text-decoration: none;
         color: black;
         height: 24px;
-        width: 22px;
+        width: 223px;
         font-family: 'Nunito';
     }
     
@@ -210,9 +212,7 @@ nav a:hover{
     .container{
         display: flex;
         flex-direction: column;
-        top: 64px;
-        right: 100px;
-        padding: 0 24px;
+
         
         
     }
@@ -221,20 +221,20 @@ nav a:hover{
     .container h1{
         font-family: 'Roboto Flex';
         position: relative;
-        top: 45px;
-        width: 653px;
-        height: 67px;
         font-size: 32px;
         font-weight: bold;
-        width: 312px;
-        height: 76px;
-        
+        right: 105px;
+        max-width: 320px;
+        height: 30px;
+        width: 30px;
+        margin-bottom: 50px;
     }
     
     .container h3{
         font-family: 'Nunito';
         position: relative;
-        top: 64px;
+        top: 64px; 
+        right: 100px;
         width: 312px;
         height: 22px;
         font-size: 16px;
@@ -247,9 +247,10 @@ nav a:hover{
         font-family: 'Nunito';
         position: relative;
         top: 32px;
-        width: 312px;
-        height: 126px;
-        font-size: 14px;
+        right: 100px;
+        max-width: 335px;
+        height: 26px;
+        font-size: 4px;
         margin-top: 16px;
     }
     
@@ -266,7 +267,8 @@ nav a:hover{
     
     .containerlink {
         display: flex;
-        top: 40px;
+        margin-top: 50px;
+        right: 98px;
         position: relative;
     }
     
@@ -280,9 +282,8 @@ nav a:hover{
         padding-bottom: 16px;
         font-family: 'Roboto Flex';
         text-align: center;
-        height: 16px;
-        width: 133px;
-
+        height: 5px;
+        width: 98px;
     
     }
     
