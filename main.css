@@ -156,14 +156,18 @@ top: 112px;
 
     .container{
         position: relative;
-        top: 40px;
-        left: -18px;
+        top: -50px;
+    
+    }
+
+    .container h3{
+        font-size: 18px;
     }
     .container h1{
         font-family: 'Roboto Flex';
         width: 450px;
         height: 48px;
-        font-size: 32px;
+        font-size: 22px;
         
     }
 
@@ -176,7 +180,7 @@ top: 112px;
     
     .containerlink {
         display: flex;
-        top: 137px;
+        top: 20px;
         position: relative;
         width: 360px;
     }
