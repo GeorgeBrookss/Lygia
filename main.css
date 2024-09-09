@@ -1,43 +1,53 @@
 *{
-    padding: 1rem;
-    box-sizing: border-box;
+    margin-left: 64px;
     
 }
 
 
 body{
     margin: 0;
-    height: auto;
-    
+    padding: 0;
+    height: 3334px;
+    width: 1400px;
 }
 
 header{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
+    margin: 0;
+    position: relative;
+    top: 26px;
+    left: 64px;
+    right: 64px;
+    bottom: 26px;
 }
 
 header h2{
 
-
-    font-size: 1.2rem;
+    margin: 0;
+    width: 138px;
+    height: 27px;
+    font-size: 18px;
     font-family: 'Nunito';
     font-weight: 500;
 
 }
 
 header a{
+    margin-left: 32px;
+    position: relative;
+    left: 888px;
     text-decoration: none;
     color: black;
+    height: 27px;
+    width: 65px;
     font-family: 'Nunito';
-    font-size: 1rem;
 }
 
 
 .container{
-    display: flex; 
+    display: flex;
     flex-direction: column;
+    top: 207px;
     
     
 }
@@ -45,13 +55,21 @@ header a{
 
 .container h1{
     font-family: 'Roboto Flex';
-    font-size: 2rem;
+    position: relative;
+    top: 45px;
+    width: 653px;
+    height: 67px;
+    font-size: 56px;
     font-weight: bold;
 }
 
 .container h3{
     font-family: 'Nunito';
-    font-size: 1.5rem;
+    position: relative;
+    top: 95px;
+    width: 732px;
+    height: 33px;
+    font-size: 24px;
     color: #863FE1;
 
     
@@ -59,18 +77,27 @@ header a{
 
 .container p{
     font-family: 'Nunito';
-    font-size: 1rem;
+    position: relative;
+    top: 32px;
+    width: 732px;
+    height: 81px;
+    font-size: 18px;
+    margin-top: 16px;
 }
 
 
 .container img{
-width: 50%;
-
-
+width: 559px;
+height: 746;
+position: absolute;
+left: 862px;
+top: 112px;
 }
 
 .containerlink {
     display: flex;
+    top: 32px;
+    position: relative;
 }
 
 .containerlink a{
@@ -78,8 +105,11 @@ width: 50%;
     border-radius: 40px;
     border-color: #863FE1;
     text-decoration: none;   
-    padding: 10px 20px;
+    font-size: 18px;
+    padding-top: 20px;
     font-family: 'Roboto Flex';
+    height: 40px;
+    width: 250px;
     text-align: center;
 
 }
@@ -91,16 +121,10 @@ width: 50%;
 
 
 
-@media (max-width: 768px){
-    @media (max-width: 768px) {
-        body {
-        font-size: 14px;
-        }
-        .container {
-        padding: 1rem;
-        }
-        .image {
-        width: 100%;
-        }
-    }
+@media only screen and (min-width: 2000px) and (max-width: 3840px){
+h1{
+    font-size: 9rem !important;
+    line-height: 9.3rem !important;
+}
+
 }
