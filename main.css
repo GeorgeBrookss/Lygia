@@ -52,6 +52,9 @@ header a{
     
 }
 
+#menu{
+    display: none;
+}
 
 .container h1{
     font-family: 'Roboto Flex';
@@ -111,14 +114,29 @@ top: 112px;
     height: 40px;
     width: 250px;
     text-align: center;
+    color: black;
 
+}
+
+.containerlink a:hover{
+    border-color: #622CA7;
+}
+
+#sobre:hover{
+    background-color: #622CA7;
+
+    
 }
 
 #sobre{
     background-color: #863FE1;
     color: white;
+    border: none;
 }
 
+nav a:hover{
+    text-decoration: underline;
+}
 
 
 
@@ -126,66 +144,117 @@ top: 112px;
 
 @media only screen and (min-width: 360px) and (max-width: 568px) {
 
-    header a{
-        margin-left: 32px;
-        position: relative;
-        left: 8px;
-        text-decoration: none;
-        color: black;
-        height: 27px;
+    *{
+        margin-left: 64px;
         
-        font-family: 'Nunito';
+    }
+    
+    #menus{
+        display: none;
+    }
+
+
+    #menu{
+        display: block;
+    }
+    
+    
+
+    body{
+        margin: 0;
+        padding: 0;
+        height: auto;
+        width: 100%;
+        right: 80px;
+        position: relative;
     }
     
     header{
         display: flex;
-        margin-left: 24px;
+        margin: 0;
         position: relative;
         top: 26px;
-        left: 94px;
+        left: 24px;
         right: 24px;
         bottom: 26px;
     }
     
-    body{
-        position: relative;
-        right: 180px;
-        margin: 24px;
-        
-    }
+    
 
-    .container{
+    header h2{
+        
+        margin: 0;
+        width: 138px;
+        height: 20px;
+        font-size: 18px;
+        font-family: 'Nunito';
+        font-weight: 500;
+        left: 24px;
         position: relative;
-        top: -50px;
     
     }
-
-    .container h3{
-        font-size: 18px;
+    
+    header a{
+        margin-left: 32px;
+        position: relative;
+        left: 136px;
+        text-decoration: none;
+        color: black;
+        height: 24px;
+        width: 22px;
+        font-family: 'Nunito';
     }
+    
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+        top: 64px;
+        
+        
+        
+    }
+    
+    
     .container h1{
         font-family: 'Roboto Flex';
-        width: 450px;
-        height: 48px;
-        font-size: 22px;
+        position: relative;
+        top: 45px;
+        width: 653px;
+        height: 67px;
+        font-size: 32px;
+        font-weight: bold;
+        width: 312px;
+        height: 76px;
+    
+    }
+    
+    .container h3{
+        font-family: 'Nunito';
+        position: relative;
+        top: 64px;
+        width: 312px;
+        height: 22px;
+        font-size: 16px;
+        color: #863FE1;
+    
         
     }
-
-
+    
     .container p{
-        width: 360px;
-        height: 96px;
-        font-size: 16px;
-    }
-    
-    .containerlink {
-        display: flex;
-        top: 20px;
+        font-family: 'Nunito';
         position: relative;
-        width: 360px;
+        top: 32px;
+        width: 312px;
+        height: 126px;
+        font-size: 14px;
+        margin-top: 16px;
     }
     
-.container img{
+    
+
+    
+    .container img{
     width: 559px;
     height: 746;
     position: absolute;
@@ -193,38 +262,33 @@ top: 112px;
     top: 112px;
     }
     
-
-}
-
-
-@media only screen and (min-width: 720px) and (max-width: 1720px) {
-
-    header a{
-        margin-left: 32px;
-        position: relative;
-        left: 28px;
-        text-decoration: none;
-        color: black;
-        height: 27px;
-        font-family: 'Nunito';
-    }
-    
-    header{
+    .containerlink {
         display: flex;
-        margin-left: 24px;
+        top: 40px;
         position: relative;
-        top: 26px;
-        left: 94px;
-        right: 24px;
-        bottom: 26px;
     }
     
-    body{
-        position: relative;
-        right: 180px;
-        margin: 24px;
-        
+    .containerlink a{
+        border: inset;
+        border-radius: 40px;
+        border-color: #863FE1;
+        text-decoration: none;   
+        font-size: 14px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        font-family: 'Roboto Flex';
+        text-align: center;
+        height: 16px;
+        width: 133px;
+    
     }
+    
+    #sobre{
+        background-color: #863FE1;
+        color: white;
+    }
+    
+
 
     .container{
         position: relative;
@@ -339,4 +403,5 @@ top: 112px;
         top: 112px;
         }
         
+}
 }
